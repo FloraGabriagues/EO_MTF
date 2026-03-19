@@ -1,22 +1,25 @@
 # MTF — From Optics to Measurement
 
-Jupyter notebook series on Modulation Transfer Function (MTF) 
-estimation for imaging systems.
+Every optical system introduces a blur. Not because of a defect — because of physics.
+This notebook series explains how to quantify it, measure it, and understand where it comes from.
 
-## Notebooks
+The **Modulation Transfer Function (MTF)** is the universal metric for imaging sharpness.
+The same framework applies to satellite sensors, cinema lenses, MRI scanners, and smartphone cameras.
 
-| Notebook | Content |
-|---|---|
-| `MTF_01_fundamentals.ipynb` | PSF, OTF, slanted edge pipeline, numerical sensitivities (truncation, windowing, noise) |
-| `MTF_02_earth_observation.ipynb` | EO-specific contributors, Sentinel-2 application *(in progress)* |
+## What's inside
 
-## Dependencies
+**`MTF_01_fundamentals.ipynb`**  
+PSF, OTF, slanted edge pipeline (ISO 12233), and the numerical traps that affect every MTF estimate in practice: truncation, spectral leakage, windowing bias, noise propagation.
 
-numpy, scipy, matplotlib
+**`MTF_02_earth_observation.ipynb`** *(in progress)*  
+EO-specific contributors — optics, pixel integration, jitter, smear, forward linear motion.
+Applied to real Sentinel-2 imagery.
 
-## About
+## Built on
 
-Developed as part of an open image quality toolbox for Earth Observation.  
-Full toolbox available as part of consulting engagements.
+numpy · scipy · matplotlib
 
-→ [floragabriagues.github.io](https://floragabriagues.github.io)
+---
+
+*Part of an open image quality toolbox for Earth Observation.*  
+*Full toolbox and consulting — [floragabriagues.github.io](https://floragabriagues.github.io)*
