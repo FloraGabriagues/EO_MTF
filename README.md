@@ -12,7 +12,7 @@ The same framework applies to satellite sensors, cinema lenses, MRI scanners, an
 PSF, OTF, slanted edge pipeline (ISO 12233), and the numerical traps that affect every MTF estimate in practice: truncation, spectral leakage, windowing bias, noise propagation.
 
 **`MTF_02_earth_observation.ipynb`** *(in progress)*  
-EO-specific contributors — optics, pixel integration, jitter, smear, forward linear motion.
+EO-specific contributors: optics, pixel integration, jitter, smear, forward linear motion.
 Applied to real Sentinel-2 imagery.
 
 ## Built on
