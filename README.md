@@ -1,6 +1,6 @@
 # MTF — From Optics to Measurement
 
-Every optical system introduces a blur. Not because of a defect — because of physics.
+Every optical system introduces a blur. Not only because of a defect but because of physics.
 This notebook series explains how to quantify it, measure it, and understand where it comes from.
 
 The **Modulation Transfer Function (MTF)** is the universal metric for imaging sharpness.
